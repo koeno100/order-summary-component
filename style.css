@@ -2,9 +2,6 @@
 
 body {
     background: url('images/pattern-background-mobile.svg') no-repeat top/contain hsl(225, 100%, 94%);
-    /* background-image: url('images/pattern-background-mobile.svg');
-    background-repeat: no-repeat;
-    background-size: cover; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,7 +78,12 @@ main, footer {
 }
 
 .product-name {
+    font-size: 0.9375rem;
     font-weight: 700;
+}
+
+.product-price {
+    font-size: 0.9375rem;
 }
 
 .change-product-link {
